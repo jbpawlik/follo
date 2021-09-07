@@ -2,18 +2,18 @@ import React from 'react';
 import {
   Navbar,
   Nav,
-  NavLink, 
-  Button,
+  NavLink,
 } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
 
 function Header() {
   return (
     <React.Fragment>
       <Navbar fixed="right" bg="dark" variant="dark">
         <Nav>
-          {/* <Button href="#action1" className="btn btn-outline-info btn-sm">Home</Button> */}
-          <Nav.Link href="#action2">Notification</Nav.Link> 
-          <Nav.Link href="#action3">Messages</Nav.Link>
+          <Button variant="outline-dark" href="#action1">Home</Button>
+          <Button variant="outline-dark" href="#action2">Notification</Button> 
+          <Button variant="outline-dark" href="#action3">Messages</Button>
         </Nav>
       </Navbar>
     </React.Fragment>

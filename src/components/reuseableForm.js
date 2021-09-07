@@ -8,6 +8,7 @@
 
 //   function reuseableForm() {
 //     return (
+//    <React.Fragment className="d-grid gap-2">
 //     <Form>  
 //       <FloatingLabel controlId="floatingTextarea2" label="newPost">
 //         <Form.Control
@@ -16,10 +17,11 @@
 //           style={{ height: '100px' }}
 //         />
 //       </FloatingLabel>
-//       <Button variant="success" type="submit">
+//       <Button variant="success" type="submit" size="md">
 //       Post
 //       </Button>
 //     </Form>
+//    </React.Fragment>
 //   );
 // }
 

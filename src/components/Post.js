@@ -1,21 +1,27 @@
 import React from "react";
 import PropTypes from "prop-types";
+import {Container, Row, Col, Grid} from "react-bootstrap";
 // import ProfilePic from "./ProfilePic";
 
 function Post(props) {
   return (
     <React.Fragment>
-      <div className="row">
-        <div className="col-2">
-        {/* <ProfilePic /> */}
-        <p>{props.profileName} - {props.description}</p>
-        </div></div>
+      <Container>
+        <Row>
+          <Col lg='2'>
+            {props.profilePic}
+          </Col>
+          <Col lg='10'>
+            {props.profileName} - {props.description}
+          </Col>
+        </Row>
+      </Container>
     </React.Fragment>
   )
 };
 
 Post.propTypes = {
-  // profilePic: PropTypes.object.isRequired,
+  profilePic: PropTypes.string.isRequired,
   profileName: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired
 }; 
