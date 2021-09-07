@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Form,
   FormControl,
-  Button,
+  Button
   } from 'react-bootstrap';
 
 function SearchBar() {

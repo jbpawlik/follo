@@ -23,7 +23,7 @@ const newsfeedPosts = [
 function Newsfeed() {
   return (
     <React.Fragment>
-      <hr/>
+      <br/>
       {newsfeedPosts.map((post, index) =>
         <Post 
           profilePic = {post.profilePic}

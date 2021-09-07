@@ -14,10 +14,10 @@ function App() {
       <Header />
       <Container>
         <Row>
-          <Col className="col-2">
+          <Col className="col-3">
             <ProfileSidebar/>          
           </Col>
-          <Col className="col-10">
+          <Col className="col-9">
           <Newsfeed />
           </Col>
         </Row>
