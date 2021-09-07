@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import {Container, Row, Col, Grid} from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // import ProfilePic from "./ProfilePic";
 
 function Post(props) {
@@ -8,13 +10,14 @@ function Post(props) {
     <React.Fragment>
       <Container>
         <Row>
-          <Col lg='2'>
+          <Col className="col-2">
             {props.profilePic}
           </Col>
-          <Col lg='10'>
+          <Col className="col-10">
             {props.profileName} - {props.description}
           </Col>
         </Row>
+        <br></br>
       </Container>
     </React.Fragment>
   )

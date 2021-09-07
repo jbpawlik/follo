@@ -7,17 +7,11 @@ import {
 
 function SearchBar() {
   return (
-    <React.Fragment>
-      <div><Form className = "d-flex flex-row bd-highlight mb-3"></Form></div>
-        <div>
-          <FormControl
-            type="seac"
-            placeholder = "Search..."
-            className = "p-2 bd-highlight"
-            aria-label = "Search"
-          />
+    <div className = "search">
+      <div className = "search_input">
+        <input placeholder = "search..." type = "text" />
       </div>
-    </React.Fragment>
+    </div>
   );
 }
 
