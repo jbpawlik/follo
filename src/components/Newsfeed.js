@@ -4,12 +4,12 @@ import Post from './Post';
 
 const newsfeedPosts = [
   {
-    profilePic: <img src="https://media-exp1.licdn.com/dms/image/C4E16AQFNhtHOVowu6A/profile-displaybackgroundimage-shrink_350_1400/0/1627079958989?e=1636588800&v=beta&t=Mpyv2sdXOmuTectGtWYs3UlswnJHMT7mW_vbGk-uW4s" width="50px" height="50px" alt="Godfrey"></img>,
-    profileName: "Godfrey owidi",
+    profilePic: <img src="https://media-exp1.licdn.com/dms/image/C5603AQHHI1oo0E6Sag/profile-displayphoto-shrink_200_200/0/1616938431792?e=1636588800&v=beta&t=RbSgpNN16n_3r-CTP6eqWyEF3_6BDUxPU5wPJcj7Zi8" width="50px" height="50px" alt="Ben"></img>,
+    profileName: "Godfrey Owidi",
     description: "I just want to get paid for this, is that too much to ask?"
   },
   {
-    profilePic: <img src="https://media-exp1.licdn.com/dms/image/C5603AQHHI1oo0E6Sag/profile-displayphoto-shrink_200_200/0/1616938431792?e=1636588800&v=beta&t=RbSgpNN16n_3r-CTP6eqWyEF3_6BDUxPU5wPJcj7Zi8" width="50px" height="50px" alt="Ben"></img>,
+    profilePic: <img src="https://media-exp1.licdn.com/dms/image/C4E16AQFNhtHOVowu6A/profile-displaybackgroundimage-shrink_350_1400/0/1627079958989?e=1636588800&v=beta&t=Mpyv2sdXOmuTectGtWYs3UlswnJHMT7mW_vbGk-uW4s" width="50px" height="50px" alt="Godfrey"></img>,
     profileName: "Ben Pawlik",
     description: "I hate Mondays :'("
   },
